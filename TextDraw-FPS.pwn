@@ -1,13 +1,13 @@
 /*
     * Filterscript TextDraw FPS
 
-    © [2024] [Calasans]. Todos os direitos reservados.
+    Â© [2024] [Calasans]. Todos os direitos reservados.
 
     Discord: ocalasans
     Youtube: Calasans
     Instagram: ocalasans
 
-    SA:MP Programming Comunnity©: https://abre.ai/samp-spc
+    SA:MP Programming ComunnityÂ©: https://abre.ai/samp-spc
 */
 
 #define FILTERSCRIPT
@@ -99,7 +99,7 @@ public OnPlayerDisconnect(playerid, reason)
 {
     KillTimer(TFF_cronometro[playerid]);
     //
-    PlayerTextDrawHide(playerid, TFF_text_fps[playerid]);
+    PlayerTextDrawDestroy(playerid, TFF_text_fps[playerid]);
     //
     return true;
 }
