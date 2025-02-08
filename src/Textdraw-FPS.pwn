@@ -92,7 +92,7 @@ public OnFilterScriptInit() {
     print("__________________________________________________________________");
     print("||==============================================================||");
     print("||                                                              ||");
-    print("||                    Anti-Ping Filterscript                    ||");
+    print("||                  Textdraw-FPS Filterscript                   ||");
     print("||                                                              ||");
     print("|| Developer: Calasans                                          ||");
     print("|| Instagram: ocalasans                                         ||");
